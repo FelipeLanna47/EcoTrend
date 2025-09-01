@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Eco Trend - Categorias</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo"><a href="index.html">Eco Trend</a></h1>
+      <nav class="main-nav">
+        <a href="index.html">Início</a>
+        <a href="categorias.html">Categorias</a>
+        <a href="carrinho.html">Carrinho <span id="cart-count" class="cart-badge">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Produtos</h2>
+
+    <div class="filters">
+      <label>Filtrar por categoria:
+        <select id="category-filter">
+          <option value="">Todas</option>
+        </select>
+      </label>
+      <label>Pesquisar:
+        <input id="search-input" placeholder="Pesquisar por nome...">
+      </label>
+    </div>
+
+    <div id="product-grid" class="grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Eco Trend</p>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
